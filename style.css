@@ -1,76 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(36, 35, 35);
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(36, 35, 35);
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1{
-    text-align: center;
-    margin-bottom: 20px;
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
 }
 
-input[type="text"]{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    cursor: pointer;
+#add_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(72, 62, 212);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
-li{
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+ul {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
 }
 
-.todo_item{
-    background-color: rgb(92, 214, 198);
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
-
-.dflix{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.todo_item {
+  background-color: rgb(92, 214, 198);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.delete_btn{
-    color: rgb(240, 240, 240);
-    cursor: pointer;
-    background-color: red;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
+.dflix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete_btn {
+  color: rgb(240, 240, 240);
+  cursor: pointer;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
 }
